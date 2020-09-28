@@ -958,10 +958,27 @@ textarea {
   font-size: 2em;
 }
 
-/* Mon site
---------------------------------------------- */
 .site {
   margin: 0 auto;
   width: 80%;
+}
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: flex;
+  }
+  .main-navigation ul li {
+    padding: 10px;
+  }
+  .main-navigation ul li a {
+    font-size: 1.2em;
+    color: #00f;
+  }
+  .main-navigation ul li:hover {
+    background-color: aqua;
+  }
 }
 /*# sourceMappingURL=style.css.map */
